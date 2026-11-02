@@ -1,0 +1,53 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories { mavenCentral() }
+
+java { toolchain { languageVersion = JavaLanguageVersion.of(21) } }
+application { mainClass = 'example.proxy.ProxyApplication' }
+
+dependencies {
+    // BOM согласует версии Spring, Jetty и Netty; фактически разрешённые версии
+    // дополнительно закреплены в gradle.lockfile для воспроизводимой сборки.
+    implementation platform('org.springframework.boot:spring-boot-dependencies:4.0.0')
+    implementation('org.springframework.boot:spring-boot-starter-webmvc') {
+        exclude group: 'org.springframework.boot', module: 'spring-boot-starter-tomcat'
+    }
+    implementation 'org.springframework.boot:spring-boot-starter-jetty'
+    // Исходящие запросы выполняет собственный клиент на Bootstrap/Channel/HttpClientCodec.
+    // Высокоуровневый HTTP-клиент Reactor Netty здесь не используется.
+    implementation 'io.netty:netty-codec-http'
+    implementation 'io.netty:netty-handler'
+    implementation 'io.netty:netty-transport'
+    implementation 'io.netty:netty-resolver-dns'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation('org.springframework.boot:spring-boot-starter-webmvc-test') {
+        // Тесты должны запускаться на том же Jetty, что и приложение: случайное
+        // присутствие Tomcat скрыло бы ошибки взаимодействия с Servlet API Jetty.
+        exclude group: 'org.springframework.boot', module: 'spring-boot-starter-tomcat'
+    }
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+// Фиксируем зависимости как приложения, так и тестового окружения.
+dependencyLocking { lockAllConfigurations() }
+
+tasks.register('backend', JavaExec) {
+    group = 'application'
+    description = 'Start the local streaming digest backend on port 9090.'
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'example.proxy.DemoBackend'
+}
+
+test {
+    useJUnitPlatform()
+    // Сетевые сценарии используют собственные локальные серверы и управляемые
+    // остановки потоков; один процесс упрощает воспроизведение их взаимного порядка.
+    maxParallelForks = 1
+    // Усиленная диагностика утечек дополняет явные проверки refCnt в тестах.
+    // Отсутствие сообщений в журнале само по себе не доказывает освобождение буферов.
+    systemProperty 'io.netty.leakDetection.level', 'paranoid'
+    testLogging { events 'passed', 'skipped', 'failed' }
+}
