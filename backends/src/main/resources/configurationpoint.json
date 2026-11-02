@@ -1,0 +1,17 @@
+{
+  "name": "Бэкенды",
+  "description" : "Обеспечивает взаимодействие с бэкендами (другими системами), для которых Портал является входной точкой. Бэкендами могут выступать любые Web-приложения.",
+  "module_name": "backends",
+  "group" : "core",
+  "version": "1.0",
+  "config_class": "com.otr.portal.hosts.HostsConfiguration",
+  "provider_class": "com.otr.portal.hosts.HostsConfigurationProvider",
+  "provides": [
+    {
+      "type": "TEMPLATE_VARIABLE",
+      "name": "hosts",
+      "description": "Объект для доступа к реестру бэкендов",
+      "example": "var $ufos1 = $('#ufos1');\n $ufos1.attr('src', [[${hosts.frontendUrlFor(\"depr\", \"/index.zul\")}]]);"
+    }
+  ]
+}

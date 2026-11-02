@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/BackendResponseContext.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/metrics/MicrometerBackendsMetricsImpl.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/metrics/NettyAllocatorMetrics.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/metrics/CompositeBackendsMetrics.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/metrics/PrometheusBackendsMetricsImpl.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/metrics/RequestHistoryBackendsMetrics.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/metrics/RequestMetric.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/metrics/BackendsMetrics.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/metrics/TimerContext.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/EtdExternalPathServletRequest.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/NettyTransport.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/ProxyCommand.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/CookieUtils.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/ssl/NettyTlsFactory.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/ssl/BackendSslContext.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/ssl/BackendsSslContextProvider.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/ssl/BackendsSslProperties.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/ssl/SslContextConfig.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/NettyHeadersAdapter.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/ProxySpringConfiguration.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/HttpProxy.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/NettyProxyRequestExecutor.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/RequestBodyReader.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/HostsAccessLogSpringConfiguration.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/ProxyRequestExecutor.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/ProxyCommandSupport.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/logout/BackendLogoutHandler.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/BackendResponseHandler.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/ProxyCommandFactory.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/exceptions/BackendException.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/exceptions/BackendTimeoutException.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/exceptions/BackendSslContextException.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/streaming/BlockingBodyWriter.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/streaming/ServletBodyWriter.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/streaming/BodyWriteListener.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/streaming/ServletBodyWriterFactory.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/streaming/BodyWriterContext.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/streaming/AsyncJettyBodyWriter.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/RouteType.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/RequestCallback.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/headers/ResponseCacheControlHeaderInterceptor.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/headers/DefaultHeaderProcessor.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/headers/PortalHeaders.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/headers/EnforceCachingProcessor.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/headers/HeaderInterceptor.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/headers/HeaderProcessor.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/headers/PortalHeaderContributor.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/headers/DefaultHeaderInterceptor.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/headers/RequestIdHeaderInterceptor.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/headers/ForApplicationHeaderInterceptor.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/headers/DeletedCookie.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/ProxyRequestExecutorLookup.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/ProxyClientCallContext.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/HttpProxyFilter.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/ProxyRequestClassifier.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/ResponseOwnership.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/PrintToStringHttpServletResponse.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/caching/ContentCachingResponse.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/caching/CachedResponse.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/rewriters/bytes/ByteTextSyntax.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/rewriters/bytes/HtmlLinkByteRewriter.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/rewriters/bytes/ByteRewriteChain.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/rewriters/bytes/LiteralByteRewriter.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/rewriters/bytes/ByteSearch.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/rewriters/bytes/ByteRewriteContext.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/rewriters/bytes/ByteSplice.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/rewriters/bytes/ByteContentRewriter.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/rewriters/CompoundContentRewriter.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/rewriters/BodyRewriteRequest.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/rewriters/FullLinkContentRewriter.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/rewriters/HtmlContentRewriter.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/rewriters/ResponseBodyRewriter.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/rewriters/ContentRewriter.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/ChannelManager.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/logging/ProxiedRequestLifecycle.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/cookies/RewriteNameCookieInterceptor.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/cookies/ProxiedCookie.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/cookies/CookieProcessor.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/cookies/ExternalStorageCookieInterceptor.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/cookies/SsoCookieInterceptor.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/cookies/FakeCookieProcessor.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/cookies/PassthroughCookieInterceptor.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/cookies/SsoCookieProperties.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/cookies/CookieInterceptor.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/cookies/service/CookieStorageService.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/cookies/Cookie.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/ProxyChannelInitializer.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/proxy/BackendInfo.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/backends/ssl/BackendSslContextMetadataExtension.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/backends/ssl/netty/SslContextHandlerFactory.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/backends/ssl/netty/SslHandlerContext.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/BackendNavigationConfigChangedEvent.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/BackendNavigationRefresher.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/Backend.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/breaker/BackendBreaker.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/URLGenerator.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/HostsConfiguration.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/SelfEntry.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/health/BackendHealthHistory.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/health/BackendHealth.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/health/SystemHeaderInterceptor.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/health/HostsHealthService.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/backends/SingleBackendRegistryImpl.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/backends/BackendRegistry.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/backends/HostBasedBackendRegistryImpl.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/backends/metadata/BackendTypeMetadataExtension.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/DomainNameGenerator.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/controller/monitoring/HostsMonitoringController.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/controller/BackendController.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/URICache.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/HostsConfigurationProvider.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/BackendResilienceRefresher.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/CookieShare.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/HostsService.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/HostsUpdateHook.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/model/monitoring/BackendResponsesOverview.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/model/monitoring/BackendOverview.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/filter/ProxyAwareFormContentFilter.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/filter/BackendForRequestFilter.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/filter/RouteClassifier.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/URIGenerator.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/URIOverride.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/Host.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/HostsSpringConfiguration.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/main/java/com/otr/portal/hosts/HostGroup.java">
+</file>
+</checkstyle>

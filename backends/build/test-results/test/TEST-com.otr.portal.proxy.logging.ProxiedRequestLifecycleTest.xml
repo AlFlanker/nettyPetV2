@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.otr.portal.proxy.logging.ProxiedRequestLifecycleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-28T18:44:48.827Z" hostname="MacBook-Pro.local" time="0.054">
+  <properties/>
+  <testcase name="failRequestNPETest()" classname="com.otr.portal.proxy.logging.ProxiedRequestLifecycleTest" time="0.054"/>
+  <system-out><![CDATA[2026-10-28T21:44:48.882+03:00 ERROR 61654 --- [    Test worker] HttpProxy.exchange                       : Request to null failed after 5ms
+|            failed request| |
+|                         5| |
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

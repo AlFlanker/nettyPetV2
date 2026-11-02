@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.otr.portal.proxy.streaming.ServletBodyWriterFactoryTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-28T18:45:26.125Z" hostname="MacBook-Pro.local" time="0.035">
+  <properties/>
+  <testcase name="choosesBlockingWriterOutsideJetty()" classname="com.otr.portal.proxy.streaming.ServletBodyWriterFactoryTest" time="0.019"/>
+  <testcase name="choosesBlockingWriterWithoutAsyncMode()" classname="com.otr.portal.proxy.streaming.ServletBodyWriterFactoryTest" time="0.005"/>
+  <testcase name="choosesAsyncWriterBehindCommitTrackingWrapper()" classname="com.otr.portal.proxy.streaming.ServletBodyWriterFactoryTest" time="0.003"/>
+  <testcase name="choosesBlockingWriterBehindOutputInterceptor()" classname="com.otr.portal.proxy.streaming.ServletBodyWriterFactoryTest" time="0.006"/>
+  <system-out><![CDATA[2026-10-28T21:45:26.145+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : jetty-12.1.14; built: 2026-10-02T05:48:05.032Z; git: 15cecbd757a2f6b0fdc6a8944f4c6d0020b17da0; jvm 17.0.11+9-LTS
+2026-10-28T21:45:26.146+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.handler.ContextHandler  : Started oeje11s.ServletContextHandler@51df6c7e{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@7f2f1a60{STARTED}}
+2026-10-28T21:45:26.146+03:00  INFO 61654 --- [    Test worker] o.e.j.e.servlet.ServletContextHandler    : Started oeje11s.ServletContextHandler@51df6c7e{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@7f2f1a60{STARTED}}
+2026-10-28T21:45:26.147+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.AbstractConnector       : Started oejs.ServerConnector@1565a08e{HTTP/1.1, (http/1.1)}{127.0.0.1:58647}
+2026-10-28T21:45:26.147+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : Started oejs.Server@3502e96f{STARTING}[12.1.14,sto=0] @1ms
+2026-10-28T21:45:26.149+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : Stopped oejs.Server@3502e96f{STOPPING}[12.1.14,sto=0]
+2026-10-28T21:45:26.149+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.AbstractConnector       : Stopped oejs.ServerConnector@1565a08e{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2026-10-28T21:45:26.150+03:00  INFO 61654 --- [    Test worker] o.e.j.e.servlet.ServletContextHandler    : Stopped oeje11s.ServletContextHandler@51df6c7e{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@7f2f1a60{STOPPED}}
+2026-10-28T21:45:26.151+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : jetty-12.1.14; built: 2026-10-02T05:48:05.032Z; git: 15cecbd757a2f6b0fdc6a8944f4c6d0020b17da0; jvm 17.0.11+9-LTS
+2026-10-28T21:45:26.151+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.handler.ContextHandler  : Started oeje11s.ServletContextHandler@b77521a{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@443d65a2{STARTED}}
+2026-10-28T21:45:26.151+03:00  INFO 61654 --- [    Test worker] o.e.j.e.servlet.ServletContextHandler    : Started oeje11s.ServletContextHandler@b77521a{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@443d65a2{STARTED}}
+2026-10-28T21:45:26.152+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.AbstractConnector       : Started oejs.ServerConnector@63841fb2{HTTP/1.1, (http/1.1)}{127.0.0.1:58649}
+2026-10-28T21:45:26.152+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : Started oejs.Server@6d48932{STARTING}[12.1.14,sto=0] @1ms
+2026-10-28T21:45:26.153+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : Stopped oejs.Server@6d48932{STOPPING}[12.1.14,sto=0]
+2026-10-28T21:45:26.154+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.AbstractConnector       : Stopped oejs.ServerConnector@63841fb2{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2026-10-28T21:45:26.154+03:00  INFO 61654 --- [    Test worker] o.e.j.e.servlet.ServletContextHandler    : Stopped oeje11s.ServletContextHandler@b77521a{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@443d65a2{STOPPED}}
+2026-10-28T21:45:26.155+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : jetty-12.1.14; built: 2026-10-02T05:48:05.032Z; git: 15cecbd757a2f6b0fdc6a8944f4c6d0020b17da0; jvm 17.0.11+9-LTS
+2026-10-28T21:45:26.156+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.handler.ContextHandler  : Started oeje11s.ServletContextHandler@19c67e91{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@553671f8{STARTED}}
+2026-10-28T21:45:26.156+03:00  INFO 61654 --- [    Test worker] o.e.j.e.servlet.ServletContextHandler    : Started oeje11s.ServletContextHandler@19c67e91{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@553671f8{STARTED}}
+2026-10-28T21:45:26.156+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.AbstractConnector       : Started oejs.ServerConnector@3f68fde0{HTTP/1.1, (http/1.1)}{127.0.0.1:58651}
+2026-10-28T21:45:26.156+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : Started oejs.Server@71915fa2{STARTING}[12.1.14,sto=0] @1ms
+2026-10-28T21:45:26.159+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : Stopped oejs.Server@71915fa2{STOPPING}[12.1.14,sto=0]
+2026-10-28T21:45:26.160+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.AbstractConnector       : Stopped oejs.ServerConnector@3f68fde0{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2026-10-28T21:45:26.160+03:00  INFO 61654 --- [    Test worker] o.e.j.e.servlet.ServletContextHandler    : Stopped oeje11s.ServletContextHandler@19c67e91{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@553671f8{STOPPED}}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

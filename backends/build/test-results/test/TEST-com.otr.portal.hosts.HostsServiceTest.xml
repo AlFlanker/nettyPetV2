@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.otr.portal.hosts.HostsServiceTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-10-28T18:44:46.219Z" hostname="MacBook-Pro.local" time="0.038">
+  <properties/>
+  <testcase name="fullBackendUrlWithSeparatorsAndLiteralUri()" classname="com.otr.portal.hosts.HostsServiceTest" time="0.001"/>
+  <testcase name="frontendUrlFromBackendUrlWithAnchor()" classname="com.otr.portal.hosts.HostsServiceTest" time="0.032"/>
+  <testcase name="frontendUrlFromBackendUrlWithQueryParams()" classname="com.otr.portal.hosts.HostsServiceTest" time="0.001"/>
+  <testcase name="fullBackendUrlWithoutSeparators()" classname="com.otr.portal.hosts.HostsServiceTest" time="0.0"/>
+  <testcase name="frontendUrlFromBackendUrlWithAnchorAndQueryParams()" classname="com.otr.portal.hosts.HostsServiceTest" time="0.0"/>
+  <testcase name="frontendUrlFromBackendUrlWithQueryParamsAndAnchor()" classname="com.otr.portal.hosts.HostsServiceTest" time="0.0"/>
+  <testcase name="frontendUrlFromBackendUrlWithoutSchema()" classname="com.otr.portal.hosts.HostsServiceTest" time="0.0"/>
+  <testcase name="frontendUrlFromBackendUrl()" classname="com.otr.portal.hosts.HostsServiceTest" time="0.0"/>
+  <testcase name="fullBackendUrl()" classname="com.otr.portal.hosts.HostsServiceTest" time="0.0"/>
+  <testcase name="fullBackendUrlWithSeparators()" classname="com.otr.portal.hosts.HostsServiceTest" time="0.0"/>
+  <testcase name="frontendUrlFromBackendUrlWithPathSeparators()" classname="com.otr.portal.hosts.HostsServiceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

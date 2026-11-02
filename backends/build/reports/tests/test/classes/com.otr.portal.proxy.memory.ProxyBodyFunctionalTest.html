@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - ProxyBodyFunctionalTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>ProxyBodyFunctionalTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.otr.portal.proxy.memory.html">com.otr.portal.proxy.memory</a> &gt; ProxyBodyFunctionalTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">25</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">3.062s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="tab-container">
+<ul class="tabLinks">
+<li>
+<a href="#">Tests</a>
+</li>
+<li>
+<a href="#">Standard output</a>
+</li>
+</ul>
+<div class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">backendAbortBeforeHeadersReturnsError()</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">backendAbortDuringBodyTruncatesResponse()</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">clientAbortDuringUploadKeepsProxyHealthy()</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">clientAbortKeepsProxyHealthy()</td>
+<td class="success">0.036s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">compressesStreamedAndRewrittenBodiesWithJettyGzip()</td>
+<td class="success">0.192s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">forwardsChunkedRequestBodyWithContentLength()</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">forwardsJsonPostBodyAsIs()</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">forwardsMultipartAsIs()</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">forwardsPostFormAsIs()</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">forwardsPutFormAsIs()</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">forwardsRequestBodyWithContentLength()</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">rebuildsLargeFormThroughEncoderInChunks()</td>
+<td class="success">0.091s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">rebuildsMultipartFormWithFile()</td>
+<td class="success">0.036s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">rebuildsSmallFormThroughEncoder()</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">reusesKeepAliveConnectionForStreamedAndRewrittenBodies()</td>
+<td class="success">0.285s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">rewriteBodyAboveLimitReturnsError()</td>
+<td class="success">0.016s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">rewritesChunkedBodyAndSetsContentLength()</td>
+<td class="success">0.171s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">slowClientReceivesCompleteBody()</td>
+<td class="success">0.665s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">streamsBinaryBodyOnRewriteHost()</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">streamsBodyWithContentLength()</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">streamsChunkedBody()</td>
+<td class="success">0.024s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">streamsEncodedBodyOnRewriteHostUnchanged()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">timeoutAfterHeadersReturnsRequestTimeout()</td>
+<td class="success">0.718s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">timeoutBeforeHeadersReturnsRequestTimeout()</td>
+<td class="success">0.707s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">unreachableBackendReturnsTimeoutForUpload()</td>
+<td class="success">0.016s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.2)
+
+2026-10-28T21:44:48.905+03:00  INFO 61654 --- [    Test worker] c.o.p.p.memory.ProxyBodyFunctionalTest   : Starting ProxyBodyFunctionalTest using Java 17.0.11 with PID 61654 (started by alexraspopin in /Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends)
+2026-10-28T21:44:48.905+03:00  INFO 61654 --- [    Test worker] c.o.p.p.memory.ProxyBodyFunctionalTest   : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2026-10-28T21:44:48.917+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.NettyTransport      : Соединения с бэкендами: транспорт NIO, epoll недоступен: IllegalStateException: Only supported on Linux
+2026-10-28T21:44:48.920+03:00  INFO 61654 --- [    Test worker] c.o.p.p.memory.ProxyBodyFunctionalTest   : Started ProxyBodyFunctionalTest in 0.032 seconds (process running for 3.299)
+2026-10-28T21:44:49.148+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : jetty-12.1.14; built: 2026-10-02T05:48:05.032Z; git: 15cecbd757a2f6b0fdc6a8944f4c6d0020b17da0; jvm 17.0.11+9-LTS
+2026-10-28T21:44:49.158+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.handler.ContextHandler  : Started oeje11s.ServletContextHandler@18a538a0{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@70736b19{STARTED}}
+2026-10-28T21:44:49.160+03:00  INFO 61654 --- [    Test worker] o.e.j.e.servlet.ServletContextHandler    : Started oeje11s.ServletContextHandler@18a538a0{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@70736b19{STARTED}}
+2026-10-28T21:44:49.163+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.AbstractConnector       : Started oejs.ServerConnector@73ba3c4b{HTTP/1.1, (http/1.1)}{127.0.0.1:58554}
+2026-10-28T21:44:49.163+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : Started oejs.Server@67201eeb{STARTING}[12.1.14,sto=0] @16ms
+2026-10-28T21:44:49.166+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : jetty-12.1.14; built: 2026-10-02T05:48:05.032Z; git: 15cecbd757a2f6b0fdc6a8944f4c6d0020b17da0; jvm 17.0.11+9-LTS
+2026-10-28T21:44:49.167+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.handler.ContextHandler  : Started oeje11s.ServletContextHandler@7b897456{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@4dcc0e3d{STARTED}}
+2026-10-28T21:44:49.167+03:00  INFO 61654 --- [    Test worker] o.e.j.e.servlet.ServletContextHandler    : Started oeje11s.ServletContextHandler@7b897456{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@4dcc0e3d{STARTED}}
+2026-10-28T21:44:49.167+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.AbstractConnector       : Started oejs.ServerConnector@3cfb8ee8{HTTP/1.1, (http/1.1)}{127.0.0.1:58555}
+2026-10-28T21:44:49.167+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : Started oejs.Server@4822d7a1{STARTING}[12.1.14,sto=0] @1ms
+2026-10-28T21:44:49.168+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : jetty-12.1.14; built: 2026-10-02T05:48:05.032Z; git: 15cecbd757a2f6b0fdc6a8944f4c6d0020b17da0; jvm 17.0.11+9-LTS
+2026-10-28T21:44:49.169+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.handler.ContextHandler  : Started oeje11s.ServletContextHandler@2735a7dc{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@549b26d7{STARTED}}
+2026-10-28T21:44:49.169+03:00  INFO 61654 --- [    Test worker] o.e.j.e.servlet.ServletContextHandler    : Started oeje11s.ServletContextHandler@2735a7dc{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@549b26d7{STARTED}}
+2026-10-28T21:44:49.169+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.AbstractConnector       : Started oejs.ServerConnector@6f942e10{HTTP/1.1, (http/1.1)}{127.0.0.1:58556}
+2026-10-28T21:44:49.170+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : Started oejs.Server@522221e1{STARTING}[12.1.14,sto=0] @1ms
+2026-10-28T21:44:49.171+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : jetty-12.1.14; built: 2026-10-02T05:48:05.032Z; git: 15cecbd757a2f6b0fdc6a8944f4c6d0020b17da0; jvm 17.0.11+9-LTS
+2026-10-28T21:44:49.171+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.handler.ContextHandler  : Started oeje11s.ServletContextHandler@4fb3c670{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@6b6c882c{STARTED}}
+2026-10-28T21:44:49.171+03:00  INFO 61654 --- [    Test worker] o.e.j.e.servlet.ServletContextHandler    : Started oeje11s.ServletContextHandler@4fb3c670{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@6b6c882c{STARTED}}
+2026-10-28T21:44:49.172+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.AbstractConnector       : Started oejs.ServerConnector@1e9a28bf{HTTP/1.1, (http/1.1)}{127.0.0.1:58557}
+2026-10-28T21:44:49.172+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : Started oejs.Server@6527f68a{STARTING}[12.1.14,sto=0] @1ms
+2026-10-28T21:44:49.303+03:00  WARN 61654 --- [oxy-it-jetty-83] c.otr.portal.proxy.ProxyCommandSupport   : Тело запроса POST /FUNCUPLOAD/form-large прочитано до прокси, пересобираем его из параметров
+2026-10-28T21:44:50.248+03:00  WARN 61654 --- [    parallel-13] c.o.p.command.AbstractResilienceCommand  : Таймаут TimeLimiter для команды 'proxyRequest_funcslow'. Переход к fallback.
+2026-10-28T21:44:50.250+03:00 ERROR 61654 --- [    parallel-13] HttpProxy.exchange                       : Request to http://127.0.0.1:58552/FUNCSLOW/late-body failed after 708ms
+|          obtained backend|             calculate url|  process frontend headers|        connect to backend|   sent request to backend| received backend response| processed backend headers|            failed request| |
+|                         1|                         0|                         1|                         0|                         1|                         4|                         0|                       701| |
+2026-10-28T21:44:50.250+03:00 ERROR 61654 --- [    parallel-13] com.otr.portal.proxy.ProxyCommand        : Запрос к http://127.0.0.1:58552/FUNCSLOW/late-body превысил время ожидания (708 мс)
+2026-10-28T21:44:50.498+03:00  WARN 61654 --- [127.0.0.1:58576] okhttp3.mockwebserver.MockWebServer      : MockWebServer[58552] connection from /127.0.0.1 didn't make a request
+2026-10-28T21:44:50.499+03:00  WARN 61654 --- [ker.funcstream8] c.o.p.command.AbstractResilienceCommand  : Команда 'proxyRequest_funcstream' завершилась ошибкой: Бэкенд закрыл соединение до окончания ответа http://127.0.0.1:58552/FUNCSTREAM/drop. Переход к fallback.
+
+io.netty.handler.codec.PrematureChannelClosureException: Бэкенд закрыл соединение до окончания ответа http://127.0.0.1:58552/FUNCSTREAM/drop
+	at com.otr.portal.proxy.BackendResponseHandler.channelInactive(BackendResponseHandler.java:165) ~[main/:na]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:251) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.stream.ChunkedWriteHandler.channelInactive(ChunkedWriteHandler.java:152) ~[netty-handler-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:251) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.flow.FlowControlHandler.channelInactive(FlowControlHandler.java:160) ~[netty-handler-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:251) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelInactive(CombinedChannelDuplexHandler.java:416) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:427) ~[netty-codec-base-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:392) ~[netty-codec-base-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.codec.http.HttpClientCodec$Decoder.channelInactive(HttpClientCodec.java:407) ~[netty-codec-http-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelInactive(CombinedChannelDuplexHandler.java:219) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:251) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1424) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:876) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$6.run(AbstractChannel.java:676) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:535) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:201) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-10-28T21:44:50.499+03:00 ERROR 61654 --- [ker.funcstream8] HttpProxy.exchange                       : Request to http://127.0.0.1:58552/FUNCSTREAM/drop failed after 3ms
+|          obtained backend|             calculate url|  process frontend headers|        connect to backend|   sent request to backend|            failed request| |
+|                         0|                         0|                         0|                         1|                         0|                         2| |
+2026-10-28T21:44:50.500+03:00 ERROR 61654 --- [ker.funcstream8] com.otr.portal.proxy.ProxyCommand        : Запрос к &quot;http://127.0.0.1:58552/FUNCSTREAM/drop&quot; провалился
+
+io.netty.handler.codec.PrematureChannelClosureException: Бэкенд закрыл соединение до окончания ответа http://127.0.0.1:58552/FUNCSTREAM/drop
+	at com.otr.portal.proxy.BackendResponseHandler.channelInactive(BackendResponseHandler.java:165) ~[main/:na]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:251) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.stream.ChunkedWriteHandler.channelInactive(ChunkedWriteHandler.java:152) ~[netty-handler-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:251) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.flow.FlowControlHandler.channelInactive(FlowControlHandler.java:160) ~[netty-handler-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:251) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelInactive(CombinedChannelDuplexHandler.java:416) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:427) ~[netty-codec-base-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:392) ~[netty-codec-base-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.codec.http.HttpClientCodec$Decoder.channelInactive(HttpClientCodec.java:407) ~[netty-codec-http-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelInactive(CombinedChannelDuplexHandler.java:219) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:251) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1424) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:876) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$6.run(AbstractChannel.java:676) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:535) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:201) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-10-28T21:44:50.510+03:00  WARN 61654 --- [oxy-it-jetty-82] c.otr.portal.proxy.ProxyCommandSupport   : Тело запроса POST /FUNCUPLOAD/form-small прочитано до прокси, пересобираем его из параметров
+2026-10-28T21:44:50.530+03:00  WARN 61654 --- [ker.funcstream9] c.o.p.command.AbstractResilienceCommand  : Команда 'proxyRequest_funcstream' завершилась ошибкой: Бэкенд закрыл соединение до окончания ответа http://127.0.0.1:58552/FUNCSTREAM/cut. Переход к fallback.
+
+io.netty.handler.codec.PrematureChannelClosureException: Бэкенд закрыл соединение до окончания ответа http://127.0.0.1:58552/FUNCSTREAM/cut
+	at com.otr.portal.proxy.BackendResponseHandler.channelInactive(BackendResponseHandler.java:165) ~[main/:na]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:251) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.stream.ChunkedWriteHandler.channelInactive(ChunkedWriteHandler.java:152) ~[netty-handler-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:251) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.flow.FlowControlHandler.channelInactive(FlowControlHandler.java:160) ~[netty-handler-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:251) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelInactive(CombinedChannelDuplexHandler.java:416) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:427) ~[netty-codec-base-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:392) ~[netty-codec-base-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.codec.http.HttpClientCodec$Decoder.channelInactive(HttpClientCodec.java:407) ~[netty-codec-http-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelInactive(CombinedChannelDuplexHandler.java:219) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:251) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1424) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:876) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$6.run(AbstractChannel.java:676) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:535) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:201) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-10-28T21:44:50.531+03:00 ERROR 61654 --- [ker.funcstream9] HttpProxy.exchange                       : Request to http://127.0.0.1:58552/FUNCSTREAM/cut failed after 6ms
+|          obtained backend|             calculate url|  process frontend headers|        connect to backend|   sent request to backend| received backend response| processed backend headers|            failed request| |
+|                         0|                         0|                         0|                         1|                         0|                         2|                         0|                         3| |
+2026-10-28T21:44:50.531+03:00 ERROR 61654 --- [ker.funcstream9] com.otr.portal.proxy.ProxyCommand        : Запрос к &quot;http://127.0.0.1:58552/FUNCSTREAM/cut&quot; провалился
+
+io.netty.handler.codec.PrematureChannelClosureException: Бэкенд закрыл соединение до окончания ответа http://127.0.0.1:58552/FUNCSTREAM/cut
+	at com.otr.portal.proxy.BackendResponseHandler.channelInactive(BackendResponseHandler.java:165) ~[main/:na]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:251) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.stream.ChunkedWriteHandler.channelInactive(ChunkedWriteHandler.java:152) ~[netty-handler-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:251) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.flow.FlowControlHandler.channelInactive(FlowControlHandler.java:160) ~[netty-handler-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:251) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelInactive(CombinedChannelDuplexHandler.java:416) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:427) ~[netty-codec-base-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:392) ~[netty-codec-base-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.codec.http.HttpClientCodec$Decoder.channelInactive(HttpClientCodec.java:407) ~[netty-codec-http-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelInactive(CombinedChannelDuplexHandler.java:219) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:251) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1424) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:876) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$6.run(AbstractChannel.java:676) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:535) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:201) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-10-28T21:44:51.521+03:00  WARN 61654 --- [     parallel-3] c.o.p.command.AbstractResilienceCommand  : Таймаут TimeLimiter для команды 'proxyRequest_funcslow'. Переход к fallback.
+2026-10-28T21:44:51.521+03:00 ERROR 61654 --- [     parallel-3] HttpProxy.exchange                       : Request to http://127.0.0.1:58552/FUNCSLOW/late-headers failed after 703ms
+|          obtained backend|             calculate url|  process frontend headers|        connect to backend|   sent request to backend|            failed request| |
+|                         1|                         0|                         0|                         1|                         0|                       701| |
+2026-10-28T21:44:51.522+03:00 ERROR 61654 --- [     parallel-3] com.otr.portal.proxy.ProxyCommand        : Запрос к http://127.0.0.1:58552/FUNCSLOW/late-headers превысил время ожидания (704 мс)
+2026-10-28T21:44:51.538+03:00  WARN 61654 --- [uncunreachable1] c.o.p.command.AbstractResilienceCommand  : Команда 'proxyRequest_funcunreachable' завершилась ошибкой: null. Переход к fallback.
+
+com.otr.portal.proxy.exceptions.BackendTimeoutException
+	at com.otr.portal.proxy.ProxyCommand.lambda$innerInvoke$5(ProxyCommand.java:238) ~[main/:na]
+	at com.otr.portal.proxy.ChannelManager.lambda$newConnection$2(ChannelManager.java:66) ~[main/:na]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:597) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:573) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:643) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:132) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:371) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:387) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:432) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-10-28T21:44:51.539+03:00 ERROR 61654 --- [uncunreachable1] HttpProxy.exchange                       : Request to http://127.0.0.1:58553/FUNCUNREACHABLE/upload failed after 13ms
+|          obtained backend|             calculate url|  process frontend headers|            failed request| |
+|                         2|                         0|                         9|                         2| |
+2026-10-28T21:44:51.539+03:00 ERROR 61654 --- [uncunreachable1] com.otr.portal.proxy.ProxyCommand        : Запрос к http://127.0.0.1:58553/FUNCUNREACHABLE/upload превысил время ожидания (11 мс)
+2026-10-28T21:44:51.551+03:00  WARN 61654 --- [oxy-it-jetty-78] c.o.p.command.AbstractResilienceCommand  : Команда 'proxyRequest_funcupload' завершилась ошибкой: org.eclipse.jetty.server.internal.HttpConnection$HttpEofException: Early EOF. Переход к fallback.
+
+java.lang.RuntimeException: org.eclipse.jetty.server.internal.HttpConnection$HttpEofException: Early EOF
+	at com.otr.portal.proxy.ProxyCommand.lambda$innerInvoke$1(ProxyCommand.java:200) ~[main/:na]
+	at com.otr.portal.proxy.ProxyClientCallContext.inScopeWithAuth(ProxyClientCallContext.java:56) ~[main/:na]
+	at com.otr.portal.proxy.ProxyCommand.innerInvoke(ProxyCommand.java:193) ~[main/:na]
+	at reactor.core.publisher.MonoCreate.subscribe(MonoCreate.java:61) ~[reactor-core-3.8.8.jar:3.8.8]
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:75) ~[reactor-core-3.8.8.jar:3.8.8]
+	at reactor.core.publisher.FluxRetryWhen.subscribe(FluxRetryWhen.java:81) ~[reactor-core-3.8.8.jar:3.8.8]
+	at reactor.core.publisher.MonoRetryWhen.subscribeOrReturn(MonoRetryWhen.java:47) ~[reactor-core-3.8.8.jar:3.8.8]
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:62) ~[reactor-core-3.8.8.jar:3.8.8]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:54) ~[reactor-core-3.8.8.jar:3.8.8]
+	at io.github.resilience4j.reactor.circuitbreaker.operator.MonoCircuitBreaker.subscribe(MonoCircuitBreaker.java:38) ~[resilience4j-reactor-2.3.0.jar:2.3.0]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:54) ~[reactor-core-3.8.8.jar:3.8.8]
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:75) ~[reactor-core-3.8.8.jar:3.8.8]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:54) ~[reactor-core-3.8.8.jar:3.8.8]
+	at io.github.resilience4j.reactor.bulkhead.operator.MonoBulkhead.subscribe(MonoBulkhead.java:37) ~[resilience4j-reactor-2.3.0.jar:2.3.0]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:54) ~[reactor-core-3.8.8.jar:3.8.8]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4569) ~[reactor-core-3.8.8.jar:3.8.8]
+	at reactor.core.publisher.Mono.subscribeWith(Mono.java:4634) ~[reactor-core-3.8.8.jar:3.8.8]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4535) ~[reactor-core-3.8.8.jar:3.8.8]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4471) ~[reactor-core-3.8.8.jar:3.8.8]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4418) ~[reactor-core-3.8.8.jar:3.8.8]
+	at com.otr.portal.proxy.NettyProxyRequestExecutor.execute(NettyProxyRequestExecutor.java:79) ~[main/:na]
+	at com.otr.portal.proxy.HttpProxy.proxyRequest(HttpProxy.java:97) ~[main/:na]
+	at com.otr.portal.proxy.memory.EmbeddedPortal$ProxyServlet.service(EmbeddedPortal.java:138) ~[test/:na]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:723) ~[jakarta.servlet-api-6.1.0.jar:6.1.0]
+	at org.eclipse.jetty.ee11.servlet.ServletHolder.handle(ServletHolder.java:754) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.ee11.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1688) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at com.otr.portal.proxy.memory.ProxyBodyFunctionalTest.lambda$portalRequestFilters$14(ProxyBodyFunctionalTest.java:656) ~[test/:na]
+	at org.eclipse.jetty.ee11.servlet.FilterHolder.doFilter(FilterHolder.java:205) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.ee11.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1647) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.springframework.web.multipart.support.MultipartFilter.doFilterInternal(MultipartFilter.java:125) ~[spring-web-7.0.10.jar:7.0.10]
+	at com.otr.portal.core.support.jetty.JettyMultipartFilter.doFilterInternal(JettyMultipartFilter.java:40) ~[spring-support.jar:0.0.0-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.10.jar:7.0.10]
+	at org.eclipse.jetty.ee11.servlet.FilterHolder.doFilter(FilterHolder.java:205) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.ee11.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1647) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.10.jar:7.0.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.10.jar:7.0.10]
+	at org.eclipse.jetty.ee11.servlet.FilterHolder.doFilter(FilterHolder.java:205) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.ee11.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1647) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:91) ~[spring-security-web-7.1.2.jar:7.1.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:76) ~[spring-security-web-7.1.2.jar:7.1.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.10.jar:7.0.10]
+	at org.eclipse.jetty.ee11.servlet.FilterHolder.doFilter(FilterHolder.java:205) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.ee11.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1647) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.ee11.servlet.ServletHandler$MappedServlet.handle(ServletHandler.java:1602) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.ee11.servlet.ServletChannel.dispatch(ServletChannel.java:871) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.ee11.servlet.ServletChannel.handle(ServletChannel.java:449) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.ee11.servlet.ServletHandler.handle(ServletHandler.java:469) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.server.handler.ContextHandler.handle(ContextHandler.java:1253) ~[jetty-server-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.server.Server.handle(Server.java:197) ~[jetty-server-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.server.internal.HttpChannelState$HandlerInvoker.run(HttpChannelState.java:804) ~[jetty-server-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.server.internal.HttpConnection.onFillable(HttpConnection.java:420) ~[jetty-server-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.server.internal.HttpConnection$FillableCallback.succeeded(HttpConnection.java:1789) ~[jetty-server-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105) ~[jetty-io-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:54) ~[jetty-io-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:492) ~[jetty-util-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.epcRunTask(AdaptiveExecutionStrategy.java:428) ~[jetty-util-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:401) ~[jetty-util-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:255) ~[jetty-util-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.produce(AdaptiveExecutionStrategy.java:196) ~[jetty-util-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:1009) ~[jetty-util-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1240) ~[jetty-util-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1194) ~[jetty-util-12.1.14.jar:12.1.14]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: org.eclipse.jetty.server.internal.HttpConnection$HttpEofException: Early EOF
+	at org.eclipse.jetty.server.internal.HttpConnection$RequestHandler.earlyEOF(HttpConnection.java:1221) ~[jetty-server-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:1821) ~[jetty-http-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.server.internal.HttpConnection.parseAndFillForContent(HttpConnection.java:559) ~[jetty-server-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.server.internal.HttpConnection$HttpStreamOverHTTP1.read(HttpConnection.java:1466) ~[jetty-server-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.server.HttpStream$Wrapper.read(HttpStream.java:184) ~[jetty-server-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.server.internal.HttpChannelState$ChannelRequest.read(HttpChannelState.java:1042) ~[jetty-server-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.server.Request$Wrapper.read(Request.java:962) ~[jetty-server-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.ee11.servlet.AsyncContentProducer.readChunk(AsyncContentProducer.java:325) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.ee11.servlet.AsyncContentProducer.produceChunk(AsyncContentProducer.java:305) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.ee11.servlet.AsyncContentProducer.nextChunk(AsyncContentProducer.java:210) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.ee11.servlet.BlockingContentProducer.nextChunk(BlockingContentProducer.java:100) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.ee11.servlet.HttpInput.read(HttpInput.java:267) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.ee11.servlet.HttpInput.read(HttpInput.java:248) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.apache.commons.io.IOUtils.read(IOUtils.java:1958) ~[commons-io-2.14.0.jar:2.14.0]
+	at org.apache.commons.io.IOUtils.read(IOUtils.java:1934) ~[commons-io-2.14.0.jar:2.14.0]
+	at org.apache.commons.io.IOUtils.read(IOUtils.java:1911) ~[commons-io-2.14.0.jar:2.14.0]
+	at com.otr.portal.proxy.RequestBodyReader.readBody(RequestBodyReader.java:33) ~[main/:na]
+	at com.otr.portal.proxy.ProxyCommandSupport.readRequestBody(ProxyCommandSupport.java:219) ~[main/:na]
+	at com.otr.portal.proxy.ProxyCommandSupport.buildFullHttpRequest(ProxyCommandSupport.java:81) ~[main/:na]
+	at com.otr.portal.proxy.ProxyCommand.lambda$innerInvoke$1(ProxyCommand.java:195) ~[main/:na]
+	... 62 common frames omitted
+
+2026-10-28T21:44:51.552+03:00 ERROR 61654 --- [oxy-it-jetty-78] HttpProxy.exchange                       : Request to http://127.0.0.1:58552/FUNCUPLOAD/upload-aborted failed after 3ms
+|          obtained backend|             calculate url|            failed request| |
+|                         0|                         0|                         3| |
+2026-10-28T21:44:51.552+03:00 ERROR 61654 --- [oxy-it-jetty-78] com.otr.portal.proxy.ProxyCommand        : Запрос к &quot;http://127.0.0.1:58552/FUNCUPLOAD/upload-aborted&quot; провалился
+
+java.lang.RuntimeException: org.eclipse.jetty.server.internal.HttpConnection$HttpEofException: Early EOF
+	at com.otr.portal.proxy.ProxyCommand.lambda$innerInvoke$1(ProxyCommand.java:200) ~[main/:na]
+	at com.otr.portal.proxy.ProxyClientCallContext.inScopeWithAuth(ProxyClientCallContext.java:56) ~[main/:na]
+	at com.otr.portal.proxy.ProxyCommand.innerInvoke(ProxyCommand.java:193) ~[main/:na]
+	at reactor.core.publisher.MonoCreate.subscribe(MonoCreate.java:61) ~[reactor-core-3.8.8.jar:3.8.8]
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:75) ~[reactor-core-3.8.8.jar:3.8.8]
+	at reactor.core.publisher.FluxRetryWhen.subscribe(FluxRetryWhen.java:81) ~[reactor-core-3.8.8.jar:3.8.8]
+	at reactor.core.publisher.MonoRetryWhen.subscribeOrReturn(MonoRetryWhen.java:47) ~[reactor-core-3.8.8.jar:3.8.8]
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:62) ~[reactor-core-3.8.8.jar:3.8.8]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:54) ~[reactor-core-3.8.8.jar:3.8.8]
+	at io.github.resilience4j.reactor.circuitbreaker.operator.MonoCircuitBreaker.subscribe(MonoCircuitBreaker.java:38) ~[resilience4j-reactor-2.3.0.jar:2.3.0]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:54) ~[reactor-core-3.8.8.jar:3.8.8]
+	at reactor.core.publisher.InternalMonoOperator.subscribe(InternalMonoOperator.java:75) ~[reactor-core-3.8.8.jar:3.8.8]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:54) ~[reactor-core-3.8.8.jar:3.8.8]
+	at io.github.resilience4j.reactor.bulkhead.operator.MonoBulkhead.subscribe(MonoBulkhead.java:37) ~[resilience4j-reactor-2.3.0.jar:2.3.0]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:54) ~[reactor-core-3.8.8.jar:3.8.8]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4569) ~[reactor-core-3.8.8.jar:3.8.8]
+	at reactor.core.publisher.Mono.subscribeWith(Mono.java:4634) ~[reactor-core-3.8.8.jar:3.8.8]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4535) ~[reactor-core-3.8.8.jar:3.8.8]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4471) ~[reactor-core-3.8.8.jar:3.8.8]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4418) ~[reactor-core-3.8.8.jar:3.8.8]
+	at com.otr.portal.proxy.NettyProxyRequestExecutor.execute(NettyProxyRequestExecutor.java:79) ~[main/:na]
+	at com.otr.portal.proxy.HttpProxy.proxyRequest(HttpProxy.java:97) ~[main/:na]
+	at com.otr.portal.proxy.memory.EmbeddedPortal$ProxyServlet.service(EmbeddedPortal.java:138) ~[test/:na]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:723) ~[jakarta.servlet-api-6.1.0.jar:6.1.0]
+	at org.eclipse.jetty.ee11.servlet.ServletHolder.handle(ServletHolder.java:754) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.ee11.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1688) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at com.otr.portal.proxy.memory.ProxyBodyFunctionalTest.lambda$portalRequestFilters$14(ProxyBodyFunctionalTest.java:656) ~[test/:na]
+	at org.eclipse.jetty.ee11.servlet.FilterHolder.doFilter(FilterHolder.java:205) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.ee11.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1647) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.springframework.web.multipart.support.MultipartFilter.doFilterInternal(MultipartFilter.java:125) ~[spring-web-7.0.10.jar:7.0.10]
+	at com.otr.portal.core.support.jetty.JettyMultipartFilter.doFilterInternal(JettyMultipartFilter.java:40) ~[spring-support.jar:0.0.0-SNAPSHOT]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.10.jar:7.0.10]
+	at org.eclipse.jetty.ee11.servlet.FilterHolder.doFilter(FilterHolder.java:205) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.ee11.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1647) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.10.jar:7.0.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.10.jar:7.0.10]
+	at org.eclipse.jetty.ee11.servlet.FilterHolder.doFilter(FilterHolder.java:205) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.ee11.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1647) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:91) ~[spring-security-web-7.1.2.jar:7.1.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:76) ~[spring-security-web-7.1.2.jar:7.1.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.10.jar:7.0.10]
+	at org.eclipse.jetty.ee11.servlet.FilterHolder.doFilter(FilterHolder.java:205) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.ee11.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1647) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.ee11.servlet.ServletHandler$MappedServlet.handle(ServletHandler.java:1602) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.ee11.servlet.ServletChannel.dispatch(ServletChannel.java:871) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.ee11.servlet.ServletChannel.handle(ServletChannel.java:449) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.ee11.servlet.ServletHandler.handle(ServletHandler.java:469) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.server.handler.ContextHandler.handle(ContextHandler.java:1253) ~[jetty-server-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.server.Server.handle(Server.java:197) ~[jetty-server-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.server.internal.HttpChannelState$HandlerInvoker.run(HttpChannelState.java:804) ~[jetty-server-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.server.internal.HttpConnection.onFillable(HttpConnection.java:420) ~[jetty-server-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.server.internal.HttpConnection$FillableCallback.succeeded(HttpConnection.java:1789) ~[jetty-server-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105) ~[jetty-io-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:54) ~[jetty-io-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:492) ~[jetty-util-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.epcRunTask(AdaptiveExecutionStrategy.java:428) ~[jetty-util-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:401) ~[jetty-util-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:255) ~[jetty-util-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.produce(AdaptiveExecutionStrategy.java:196) ~[jetty-util-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:1009) ~[jetty-util-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1240) ~[jetty-util-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1194) ~[jetty-util-12.1.14.jar:12.1.14]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: org.eclipse.jetty.server.internal.HttpConnection$HttpEofException: Early EOF
+	at org.eclipse.jetty.server.internal.HttpConnection$RequestHandler.earlyEOF(HttpConnection.java:1221) ~[jetty-server-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:1821) ~[jetty-http-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.server.internal.HttpConnection.parseAndFillForContent(HttpConnection.java:559) ~[jetty-server-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.server.internal.HttpConnection$HttpStreamOverHTTP1.read(HttpConnection.java:1466) ~[jetty-server-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.server.HttpStream$Wrapper.read(HttpStream.java:184) ~[jetty-server-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.server.internal.HttpChannelState$ChannelRequest.read(HttpChannelState.java:1042) ~[jetty-server-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.server.Request$Wrapper.read(Request.java:962) ~[jetty-server-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.ee11.servlet.AsyncContentProducer.readChunk(AsyncContentProducer.java:325) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.ee11.servlet.AsyncContentProducer.produceChunk(AsyncContentProducer.java:305) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.ee11.servlet.AsyncContentProducer.nextChunk(AsyncContentProducer.java:210) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.ee11.servlet.BlockingContentProducer.nextChunk(BlockingContentProducer.java:100) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.ee11.servlet.HttpInput.read(HttpInput.java:267) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.eclipse.jetty.ee11.servlet.HttpInput.read(HttpInput.java:248) ~[jetty-ee11-servlet-12.1.14.jar:12.1.14]
+	at org.apache.commons.io.IOUtils.read(IOUtils.java:1958) ~[commons-io-2.14.0.jar:2.14.0]
+	at org.apache.commons.io.IOUtils.read(IOUtils.java:1934) ~[commons-io-2.14.0.jar:2.14.0]
+	at org.apache.commons.io.IOUtils.read(IOUtils.java:1911) ~[commons-io-2.14.0.jar:2.14.0]
+	at com.otr.portal.proxy.RequestBodyReader.readBody(RequestBodyReader.java:33) ~[main/:na]
+	at com.otr.portal.proxy.ProxyCommandSupport.readRequestBody(ProxyCommandSupport.java:219) ~[main/:na]
+	at com.otr.portal.proxy.ProxyCommandSupport.buildFullHttpRequest(ProxyCommandSupport.java:81) ~[main/:na]
+	at com.otr.portal.proxy.ProxyCommand.lambda$innerInvoke$1(ProxyCommand.java:195) ~[main/:na]
+	... 62 common frames omitted
+
+2026-10-28T21:44:51.565+03:00  WARN 61654 --- [er.funcrewrite5] c.o.p.command.AbstractResilienceCommand  : Команда 'proxyRequest_funcrewrite' завершилась ошибкой: Response entity too large: 3145653 &gt; 2097152. Переход к fallback.
+
+io.netty.handler.codec.TooLongFrameException: Response entity too large: 3145653 &gt; 2097152
+	at com.otr.portal.proxy.BackendResponseHandler.verifyDeclaredLength(BackendResponseHandler.java:371) ~[main/:na]
+	at com.otr.portal.proxy.BackendResponseHandler.lambda$receiveHead$1(BackendResponseHandler.java:245) ~[main/:na]
+	at com.otr.portal.proxy.ProxyClientCallContext.withContext(ProxyClientCallContext.java:66) ~[main/:na]
+	at com.otr.portal.proxy.BackendResponseHandler.withTelemetry(BackendResponseHandler.java:527) ~[main/:na]
+	at com.otr.portal.proxy.BackendResponseHandler.receiveHead(BackendResponseHandler.java:235) ~[main/:na]
+	at com.otr.portal.proxy.BackendResponseHandler.channelRead(BackendResponseHandler.java:135) ~[main/:na]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:236) ~[netty-handler-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:195) ~[netty-handler-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:434) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:361) ~[netty-codec-base-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:325) ~[netty-codec-base-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:249) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1429) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:176) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-10-28T21:44:51.566+03:00 ERROR 61654 --- [er.funcrewrite5] HttpProxy.exchange                       : Request to http://127.0.0.1:58552/FUNCREWRITE/oversized failed after 4ms
+|          obtained backend|             calculate url|  process frontend headers|        connect to backend|   sent request to backend| received backend response|            failed request| |
+|                         0|                         0|                         0|                         1|                         0|                         1|                         2| |
+2026-10-28T21:44:51.566+03:00 ERROR 61654 --- [er.funcrewrite5] com.otr.portal.proxy.ProxyCommand        : Запрос к &quot;http://127.0.0.1:58552/FUNCREWRITE/oversized&quot; провалился
+
+io.netty.handler.codec.TooLongFrameException: Response entity too large: 3145653 &gt; 2097152
+	at com.otr.portal.proxy.BackendResponseHandler.verifyDeclaredLength(BackendResponseHandler.java:371) ~[main/:na]
+	at com.otr.portal.proxy.BackendResponseHandler.lambda$receiveHead$1(BackendResponseHandler.java:245) ~[main/:na]
+	at com.otr.portal.proxy.ProxyClientCallContext.withContext(ProxyClientCallContext.java:66) ~[main/:na]
+	at com.otr.portal.proxy.BackendResponseHandler.withTelemetry(BackendResponseHandler.java:527) ~[main/:na]
+	at com.otr.portal.proxy.BackendResponseHandler.receiveHead(BackendResponseHandler.java:235) ~[main/:na]
+	at com.otr.portal.proxy.BackendResponseHandler.channelRead(BackendResponseHandler.java:135) ~[main/:na]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:236) ~[netty-handler-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:195) ~[netty-handler-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:434) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:361) ~[netty-codec-base-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:325) ~[netty-codec-base-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:249) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1429) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:176) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-10-28T21:44:51.575+03:00  WARN 61654 --- [er.funcrewrite6] c.o.p.command.AbstractResilienceCommand  : Команда 'proxyRequest_funcrewrite' завершилась ошибкой: Response entity too large: 2105344 &gt; 2097152. Переход к fallback.
+
+io.netty.handler.codec.TooLongFrameException: Response entity too large: 2105344 &gt; 2097152
+	at com.otr.portal.proxy.BackendResponseHandler.collectRewriteContent(BackendResponseHandler.java:302) ~[main/:na]
+	at com.otr.portal.proxy.BackendResponseHandler.receiveContent(BackendResponseHandler.java:262) ~[main/:na]
+	at com.otr.portal.proxy.BackendResponseHandler.channelRead(BackendResponseHandler.java:139) ~[main/:na]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:236) ~[netty-handler-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:195) ~[netty-handler-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:434) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:361) ~[netty-codec-base-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:348) ~[netty-codec-base-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:470) ~[netty-codec-base-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) ~[netty-codec-base-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:249) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1429) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:176) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-10-28T21:44:51.576+03:00 ERROR 61654 --- [er.funcrewrite6] HttpProxy.exchange                       : Request to http://127.0.0.1:58552/FUNCREWRITE/oversized-chunked failed after 10ms
+|          obtained backend|             calculate url|  process frontend headers|        connect to backend|   sent request to backend| received backend response|            failed request| |
+|                         1|                         0|                         0|                         0|                         1|                         1|                         7| |
+2026-10-28T21:44:51.576+03:00 ERROR 61654 --- [er.funcrewrite6] com.otr.portal.proxy.ProxyCommand        : Запрос к &quot;http://127.0.0.1:58552/FUNCREWRITE/oversized-chunked&quot; провалился
+
+io.netty.handler.codec.TooLongFrameException: Response entity too large: 2105344 &gt; 2097152
+	at com.otr.portal.proxy.BackendResponseHandler.collectRewriteContent(BackendResponseHandler.java:302) ~[main/:na]
+	at com.otr.portal.proxy.BackendResponseHandler.receiveContent(BackendResponseHandler.java:262) ~[main/:na]
+	at com.otr.portal.proxy.BackendResponseHandler.channelRead(BackendResponseHandler.java:139) ~[main/:na]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:236) ~[netty-handler-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:195) ~[netty-handler-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:434) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:361) ~[netty-codec-base-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:348) ~[netty-codec-base-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:470) ~[netty-codec-base-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) ~[netty-codec-base-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:249) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1429) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:176) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-10-28T21:44:52.288+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : Stopped oejs.Server@67201eeb{STOPPING}[12.1.14,sto=0]
+2026-10-28T21:44:52.290+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.AbstractConnector       : Stopped oejs.ServerConnector@73ba3c4b{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2026-10-28T21:44:52.292+03:00  INFO 61654 --- [    Test worker] o.e.j.e.servlet.ServletContextHandler    : Stopped oeje11s.ServletContextHandler@18a538a0{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@70736b19{STOPPED}}
+2026-10-28T21:44:52.293+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : Stopped oejs.Server@4822d7a1{STOPPING}[12.1.14,sto=0]
+2026-10-28T21:44:52.294+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.AbstractConnector       : Stopped oejs.ServerConnector@3cfb8ee8{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2026-10-28T21:44:52.295+03:00  INFO 61654 --- [    Test worker] o.e.j.e.servlet.ServletContextHandler    : Stopped oeje11s.ServletContextHandler@7b897456{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@4dcc0e3d{STOPPED}}
+2026-10-28T21:44:52.295+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : Stopped oejs.Server@522221e1{STOPPING}[12.1.14,sto=0]
+2026-10-28T21:44:52.296+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.AbstractConnector       : Stopped oejs.ServerConnector@6f942e10{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2026-10-28T21:44:52.296+03:00  INFO 61654 --- [    Test worker] o.e.j.e.servlet.ServletContextHandler    : Stopped oeje11s.ServletContextHandler@2735a7dc{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@549b26d7{STOPPED}}
+2026-10-28T21:44:52.296+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : Stopped oejs.Server@6527f68a{STOPPING}[12.1.14,sto=0]
+2026-10-28T21:44:52.297+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.AbstractConnector       : Stopped oejs.ServerConnector@1e9a28bf{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2026-10-28T21:44:52.297+03:00  INFO 61654 --- [    Test worker] o.e.j.e.servlet.ServletContextHandler    : Stopped oeje11s.ServletContextHandler@4fb3c670{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@6b6c882c{STOPPED}}
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="https://www.gradle.org">Gradle 8.14.5</a> at 28 окт. 2026 г., 21:45:26</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.otr.portal.proxy.HttpProxyTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-10-28T18:44:47.797Z" hostname="MacBook-Pro.local" time="0.538">
+  <properties/>
+  <testcase name="proxyPageFromRemoteSource()" classname="com.otr.portal.proxy.HttpProxyTest" time="0.257"/>
+  <testcase name="proxyRequestWillSendResponseBodyAndHeadersToRemoteSource()" classname="com.otr.portal.proxy.HttpProxyTest" time="0.048"/>
+  <testcase name="proxyRequestWillRenameSessionCookieFromClient()" classname="com.otr.portal.proxy.HttpProxyTest" time="0.05"/>
+  <testcase name="requestToFailedResourceShouldRenderErrorPage()" classname="com.otr.portal.proxy.HttpProxyTest" time="0.056"/>
+  <testcase name="testFileUpload()" classname="com.otr.portal.proxy.HttpProxyTest" time="0.049"/>
+  <testcase name="proxyRequestWillRenameSessionCookieFromRemote()" classname="com.otr.portal.proxy.HttpProxyTest" time="0.038"/>
+  <testcase name="proxyRequestWillReturnRequestTimeoutIfRemoteUnavailable()" classname="com.otr.portal.proxy.HttpProxyTest" time="0.035"/>
+  <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.2)
+
+2026-10-28T21:44:47.467+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.HttpProxyTest       : Starting HttpProxyTest using Java 17.0.11 with PID 61654 (started by alexraspopin in /Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends)
+2026-10-28T21:44:47.474+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.HttpProxyTest       : No active profile set, falling back to 1 default profile: "default"
+2026-10-28T21:44:47.750+03:00  INFO 61654 --- [    Test worker] i.opentelemetry.api.GlobalOpenTelemetry  : AutoConfiguredOpenTelemetrySdk found on classpath but automatic configuration is disabled. To enable, run your JVM with -Dotel.java.global-autoconfigure.enabled=true
+2026-10-28T21:44:47.766+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.NettyTransport      : Соединения с бэкендами: транспорт NIO, epoll недоступен: IllegalStateException: Only supported on Linux
+2026-10-28T21:44:47.792+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.HttpProxyTest       : Started HttpProxyTest in 0.548 seconds (process running for 2.171)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.2)
+
+2026-10-28T21:44:47.822+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.HttpProxyTest       : Starting HttpProxyTest using Java 17.0.11 with PID 61654 (started by alexraspopin in /Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends)
+2026-10-28T21:44:47.823+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.HttpProxyTest       : No active profile set, falling back to 1 default profile: "default"
+2026-10-28T21:44:47.837+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.NettyTransport      : Соединения с бэкендами: транспорт NIO, epoll недоступен: IllegalStateException: Only supported on Linux
+2026-10-28T21:44:47.842+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.HttpProxyTest       : Started HttpProxyTest in 0.042 seconds (process running for 2.221)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.2)
+
+2026-10-28T21:44:48.074+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.HttpProxyTest       : Starting HttpProxyTest using Java 17.0.11 with PID 61654 (started by alexraspopin in /Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends)
+2026-10-28T21:44:48.075+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.HttpProxyTest       : No active profile set, falling back to 1 default profile: "default"
+2026-10-28T21:44:48.088+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.NettyTransport      : Соединения с бэкендами: транспорт NIO, epoll недоступен: IllegalStateException: Only supported on Linux
+2026-10-28T21:44:48.093+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.HttpProxyTest       : Started HttpProxyTest in 0.037 seconds (process running for 2.472)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.2)
+
+2026-10-28T21:44:48.123+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.HttpProxyTest       : Starting HttpProxyTest using Java 17.0.11 with PID 61654 (started by alexraspopin in /Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends)
+2026-10-28T21:44:48.123+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.HttpProxyTest       : No active profile set, falling back to 1 default profile: "default"
+2026-10-28T21:44:48.137+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.NettyTransport      : Соединения с бэкендами: транспорт NIO, epoll недоступен: IllegalStateException: Only supported on Linux
+2026-10-28T21:44:48.140+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.HttpProxyTest       : Started HttpProxyTest in 0.035 seconds (process running for 2.519)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.2)
+
+2026-10-28T21:44:48.177+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.HttpProxyTest       : Starting HttpProxyTest using Java 17.0.11 with PID 61654 (started by alexraspopin in /Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends)
+2026-10-28T21:44:48.177+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.HttpProxyTest       : No active profile set, falling back to 1 default profile: "default"
+2026-10-28T21:44:48.193+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.NettyTransport      : Соединения с бэкендами: транспорт NIO, epoll недоступен: IllegalStateException: Only supported on Linux
+2026-10-28T21:44:48.196+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.HttpProxyTest       : Started HttpProxyTest in 0.04 seconds (process running for 2.575)
+2026-10-28T21:44:48.207+03:00  WARN 61654 --- [Worker.default1] c.o.p.command.AbstractResilienceCommand  : Команда 'proxyRequest_default' завершилась ошибкой: null. Переход к fallback.
+
+com.otr.portal.proxy.exceptions.BackendTimeoutException
+	at com.otr.portal.proxy.ProxyCommand.lambda$innerInvoke$5(ProxyCommand.java:238) ~[main/:na]
+	at com.otr.portal.proxy.ChannelManager.lambda$newConnection$2(ChannelManager.java:66) ~[main/:na]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:597) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:573) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:643) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:132) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:371) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:387) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:432) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-10-28T21:44:48.209+03:00 ERROR 61654 --- [Worker.default1] HttpProxy.exchange                       : Request to http://localhost:58541/main.html failed after 10ms
+|          obtained backend|             calculate url|  process frontend headers|            failed request| |
+|                         1|                         0|                         0|                         9| |
+2026-10-28T21:44:48.209+03:00 ERROR 61654 --- [Worker.default1] com.otr.portal.proxy.ProxyCommand        : Запрос к http://localhost:58541/main.html превысил время ожидания (9 мс)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.2)
+
+2026-10-28T21:44:48.229+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.HttpProxyTest       : Starting HttpProxyTest using Java 17.0.11 with PID 61654 (started by alexraspopin in /Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends)
+2026-10-28T21:44:48.230+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.HttpProxyTest       : No active profile set, falling back to 1 default profile: "default"
+2026-10-28T21:44:48.240+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.NettyTransport      : Соединения с бэкендами: транспорт NIO, epoll недоступен: IllegalStateException: Only supported on Linux
+2026-10-28T21:44:48.243+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.HttpProxyTest       : Started HttpProxyTest in 0.029 seconds (process running for 2.622)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.2)
+
+2026-10-28T21:44:48.278+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.HttpProxyTest       : Starting HttpProxyTest using Java 17.0.11 with PID 61654 (started by alexraspopin in /Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends)
+2026-10-28T21:44:48.278+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.HttpProxyTest       : No active profile set, falling back to 1 default profile: "default"
+2026-10-28T21:44:48.288+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.NettyTransport      : Соединения с бэкендами: транспорт NIO, epoll недоступен: IllegalStateException: Only supported on Linux
+2026-10-28T21:44:48.292+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.HttpProxyTest       : Started HttpProxyTest in 0.028 seconds (process running for 2.671)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.2)
+
+2026-10-28T21:44:48.317+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.HttpProxyTest       : Starting HttpProxyTest using Java 17.0.11 with PID 61654 (started by alexraspopin in /Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends)
+2026-10-28T21:44:48.317+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.HttpProxyTest       : No active profile set, falling back to 1 default profile: "default"
+2026-10-28T21:44:48.327+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.NettyTransport      : Соединения с бэкендами: транспорт NIO, epoll недоступен: IllegalStateException: Only supported on Linux
+2026-10-28T21:44:48.330+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.HttpProxyTest       : Started HttpProxyTest in 0.028 seconds (process running for 2.709)
+2026-10-28T21:44:48.333+03:00  WARN 61654 --- [Worker.default1] c.o.p.command.AbstractResilienceCommand  : Команда 'proxyRequest_default' завершилась ошибкой: null. Переход к fallback.
+
+com.otr.portal.proxy.exceptions.BackendTimeoutException
+	at com.otr.portal.proxy.ProxyCommand.lambda$innerInvoke$5(ProxyCommand.java:238) ~[main/:na]
+	at com.otr.portal.proxy.ChannelManager.lambda$newConnection$2(ChannelManager.java:66) ~[main/:na]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:604) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:597) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:573) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:506) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:650) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:643) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:132) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:371) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:387) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:432) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-10-28T21:44:48.334+03:00 ERROR 61654 --- [Worker.default1] HttpProxy.exchange                       : Request to http://localhost:58547/zkau failed after 2ms
+|          obtained backend|             calculate url|  process frontend headers|            failed request| |
+|                         1|                         0|                         0|                         1| |
+2026-10-28T21:44:48.334+03:00 ERROR 61654 --- [Worker.default1] com.otr.portal.proxy.ProxyCommand        : Запрос к http://localhost:58547/zkau превысил время ожидания (2 мс)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

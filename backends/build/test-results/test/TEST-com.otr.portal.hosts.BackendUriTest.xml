@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.otr.portal.hosts.BackendUriTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-28T18:44:46.201Z" hostname="MacBook-Pro.local" time="0.017">
+  <properties/>
+  <testcase name="1: cut backendUri from &quot;/test/testPageUri&quot;" classname="com.otr.portal.hosts.BackendUriTest" time="0.011"/>
+  <testcase name="2: cut backendUri from &quot;/testPageUri&quot;" classname="com.otr.portal.hosts.BackendUriTest" time="0.0"/>
+  <testcase name="3: cut backendUri from &quot;/testPage/testPageUri&quot;" classname="com.otr.portal.hosts.BackendUriTest" time="0.0"/>
+  <testcase name="4: cut backendUri from &quot;/test/testPage/testPageUri&quot;" classname="com.otr.portal.hosts.BackendUriTest" time="0.0"/>
+  <testcase name="5: cut backendUri from &quot;/test/test/testPageUri&quot;" classname="com.otr.portal.hosts.BackendUriTest" time="0.001"/>
+  <testcase name="6: cut backendUri from &quot;/test/testPageUri&quot;" classname="com.otr.portal.hosts.BackendUriTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

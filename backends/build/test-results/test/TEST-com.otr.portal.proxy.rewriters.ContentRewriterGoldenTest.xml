@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.otr.portal.proxy.rewriters.ContentRewriterGoldenTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-10-28T18:44:57.420Z" hostname="MacBook-Pro.local" time="0.005">
+  <properties/>
+  <testcase name="replacesFullBackendUrlInAnyText()" classname="com.otr.portal.proxy.rewriters.ContentRewriterGoldenTest" time="0.001"/>
+  <testcase name="lazyValueStopsAtFirstQuoteAfterOneChar()" classname="com.otr.portal.proxy.rewriters.ContentRewriterGoldenTest" time="0.0"/>
+  <testcase name="valueNeverCrossesLineTerminator()" classname="com.otr.portal.proxy.rewriters.ContentRewriterGoldenTest" time="0.001"/>
+  <testcase name="rewritesRelativeHrefOnlyWithoutBaseTag()" classname="com.otr.portal.proxy.rewriters.ContentRewriterGoldenTest" time="0.001"/>
+  <testcase name="appliesHtmlRulesOnlyToHtmlSubtype()" classname="com.otr.portal.proxy.rewriters.ContentRewriterGoldenTest" time="0.0"/>
+  <testcase name="chainResultDependsOnRewriterOrder()" classname="com.otr.portal.proxy.rewriters.ContentRewriterGoldenTest" time="0.001"/>
+  <testcase name="rewritesFirstFormActionUpToClosingBracket()" classname="com.otr.portal.proxy.rewriters.ContentRewriterGoldenTest" time="0.0"/>
+  <testcase name="rewritesAbsoluteHrefWithAnyQuote()" classname="com.otr.portal.proxy.rewriters.ContentRewriterGoldenTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

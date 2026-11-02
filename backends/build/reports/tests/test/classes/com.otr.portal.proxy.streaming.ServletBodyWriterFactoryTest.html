@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - ServletBodyWriterFactoryTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>ServletBodyWriterFactoryTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.otr.portal.proxy.streaming.html">com.otr.portal.proxy.streaming</a> &gt; ServletBodyWriterFactoryTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.033s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="tab-container">
+<ul class="tabLinks">
+<li>
+<a href="#">Tests</a>
+</li>
+<li>
+<a href="#">Standard output</a>
+</li>
+</ul>
+<div class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">choosesAsyncWriterBehindCommitTrackingWrapper()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">choosesBlockingWriterBehindOutputInterceptor()</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">choosesBlockingWriterOutsideJetty()</td>
+<td class="success">0.019s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">choosesBlockingWriterWithoutAsyncMode()</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2026-10-28T21:45:26.145+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : jetty-12.1.14; built: 2026-10-02T05:48:05.032Z; git: 15cecbd757a2f6b0fdc6a8944f4c6d0020b17da0; jvm 17.0.11+9-LTS
+2026-10-28T21:45:26.146+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.handler.ContextHandler  : Started oeje11s.ServletContextHandler@51df6c7e{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@7f2f1a60{STARTED}}
+2026-10-28T21:45:26.146+03:00  INFO 61654 --- [    Test worker] o.e.j.e.servlet.ServletContextHandler    : Started oeje11s.ServletContextHandler@51df6c7e{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@7f2f1a60{STARTED}}
+2026-10-28T21:45:26.147+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.AbstractConnector       : Started oejs.ServerConnector@1565a08e{HTTP/1.1, (http/1.1)}{127.0.0.1:58647}
+2026-10-28T21:45:26.147+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : Started oejs.Server@3502e96f{STARTING}[12.1.14,sto=0] @1ms
+2026-10-28T21:45:26.149+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : Stopped oejs.Server@3502e96f{STOPPING}[12.1.14,sto=0]
+2026-10-28T21:45:26.149+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.AbstractConnector       : Stopped oejs.ServerConnector@1565a08e{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2026-10-28T21:45:26.150+03:00  INFO 61654 --- [    Test worker] o.e.j.e.servlet.ServletContextHandler    : Stopped oeje11s.ServletContextHandler@51df6c7e{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@7f2f1a60{STOPPED}}
+2026-10-28T21:45:26.151+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : jetty-12.1.14; built: 2026-10-02T05:48:05.032Z; git: 15cecbd757a2f6b0fdc6a8944f4c6d0020b17da0; jvm 17.0.11+9-LTS
+2026-10-28T21:45:26.151+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.handler.ContextHandler  : Started oeje11s.ServletContextHandler@b77521a{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@443d65a2{STARTED}}
+2026-10-28T21:45:26.151+03:00  INFO 61654 --- [    Test worker] o.e.j.e.servlet.ServletContextHandler    : Started oeje11s.ServletContextHandler@b77521a{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@443d65a2{STARTED}}
+2026-10-28T21:45:26.152+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.AbstractConnector       : Started oejs.ServerConnector@63841fb2{HTTP/1.1, (http/1.1)}{127.0.0.1:58649}
+2026-10-28T21:45:26.152+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : Started oejs.Server@6d48932{STARTING}[12.1.14,sto=0] @1ms
+2026-10-28T21:45:26.153+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : Stopped oejs.Server@6d48932{STOPPING}[12.1.14,sto=0]
+2026-10-28T21:45:26.154+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.AbstractConnector       : Stopped oejs.ServerConnector@63841fb2{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2026-10-28T21:45:26.154+03:00  INFO 61654 --- [    Test worker] o.e.j.e.servlet.ServletContextHandler    : Stopped oeje11s.ServletContextHandler@b77521a{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@443d65a2{STOPPED}}
+2026-10-28T21:45:26.155+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : jetty-12.1.14; built: 2026-10-02T05:48:05.032Z; git: 15cecbd757a2f6b0fdc6a8944f4c6d0020b17da0; jvm 17.0.11+9-LTS
+2026-10-28T21:45:26.156+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.handler.ContextHandler  : Started oeje11s.ServletContextHandler@19c67e91{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@553671f8{STARTED}}
+2026-10-28T21:45:26.156+03:00  INFO 61654 --- [    Test worker] o.e.j.e.servlet.ServletContextHandler    : Started oeje11s.ServletContextHandler@19c67e91{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@553671f8{STARTED}}
+2026-10-28T21:45:26.156+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.AbstractConnector       : Started oejs.ServerConnector@3f68fde0{HTTP/1.1, (http/1.1)}{127.0.0.1:58651}
+2026-10-28T21:45:26.156+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : Started oejs.Server@71915fa2{STARTING}[12.1.14,sto=0] @1ms
+2026-10-28T21:45:26.159+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : Stopped oejs.Server@71915fa2{STOPPING}[12.1.14,sto=0]
+2026-10-28T21:45:26.160+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.AbstractConnector       : Stopped oejs.ServerConnector@3f68fde0{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2026-10-28T21:45:26.160+03:00  INFO 61654 --- [    Test worker] o.e.j.e.servlet.ServletContextHandler    : Stopped oeje11s.ServletContextHandler@19c67e91{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@553671f8{STOPPED}}
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="https://www.gradle.org">Gradle 8.14.5</a> at 28 окт. 2026 г., 21:45:26</p>
+</div>
+</div>
+</body>
+</html>

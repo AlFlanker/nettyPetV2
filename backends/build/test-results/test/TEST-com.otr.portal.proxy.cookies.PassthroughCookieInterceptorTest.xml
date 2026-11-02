@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.otr.portal.proxy.cookies.PassthroughCookieInterceptorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-28T18:44:48.821Z" hostname="MacBook-Pro.local" time="0.002">
+  <properties/>
+  <testcase name="Пустой список - cookies не меняются" classname="com.otr.portal.proxy.cookies.PassthroughCookieInterceptorTest" time="0.0"/>
+  <testcase name="Cookie передаётся на бэкенд без переименования" classname="com.otr.portal.proxy.cookies.PassthroughCookieInterceptorTest" time="0.001"/>
+  <testcase name="Cookie из запроса заменяет значение из потока" classname="com.otr.portal.proxy.cookies.PassthroughCookieInterceptorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

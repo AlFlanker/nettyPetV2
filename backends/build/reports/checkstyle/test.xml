@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/test/java/com/otr/portal/proxy/TestHelper.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/test/java/com/otr/portal/proxy/metrics/NettyAllocatorMetricsTest.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/test/java/com/otr/portal/proxy/AbortedInputStream.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/test/java/com/otr/portal/proxy/ProxyCommandSupportTest.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/test/java/com/otr/portal/proxy/memory/ProxyBodyMemoryTest.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/test/java/com/otr/portal/proxy/memory/EmbeddedPortal.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/test/java/com/otr/portal/proxy/memory/AllocationProbe.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/test/java/com/otr/portal/proxy/memory/EmulatorPage.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/test/java/com/otr/portal/proxy/memory/NettyLeakRecorder.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/test/java/com/otr/portal/proxy/memory/UrlEncodedForm.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/test/java/com/otr/portal/proxy/memory/ProxyBodyFunctionalTest.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/test/java/com/otr/portal/proxy/streaming/ServletBodyWriterFactoryTest.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/test/java/com/otr/portal/proxy/HttpProxyTest.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/test/java/com/otr/portal/proxy/NettyTransportTest.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/test/java/com/otr/portal/proxy/rewriters/bytes/TrackingAllocator.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/test/java/com/otr/portal/proxy/rewriters/bytes/ByteRewriteDifferentialTest.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/test/java/com/otr/portal/proxy/rewriters/HtmlContentRewriterTest.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/test/java/com/otr/portal/proxy/rewriters/ContentRewriterGoldenTest.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/test/java/com/otr/portal/proxy/rewriters/RewriteCorpus.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/test/java/com/otr/portal/proxy/logging/ProxiedRequestLifecycleTest.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/test/java/com/otr/portal/proxy/cookies/PassthroughCookieInterceptorTest.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/test/java/com/otr/portal/proxy/cookies/ProxiedCookieTest.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/test/java/com/otr/portal/proxy/cookies/RewriteNameCookieInterceptorTest.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/test/java/com/otr/portal/proxy/RequestBodyReaderTest.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/test/java/com/otr/portal/TestBackend.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/test/java/com/otr/portal/hosts/health/BackendHealthHistoryTest.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/test/java/com/otr/portal/hosts/HostsServiceTest.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/test/java/com/otr/portal/hosts/filter/ProxyAwareFormContentFilterTest.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/test/java/com/otr/portal/hosts/BackendUriTest.java">
+</file>
+<file name="/Users/alexraspopin/Documents/ОТР/repo/fk-portal/extensions/backends/src/test/java/com/otr/tests/portal/TestContext.java">
+</file>
+</checkstyle>

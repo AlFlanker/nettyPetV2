@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.otr.portal.proxy.memory.ProxyBodyMemoryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-28T18:44:54.437Z" hostname="MacBook-Pro.local" time="2.978">
+  <properties/>
+  <testcase name="streamingProxyAllocatesHeapIndependentOfBodySize()" classname="com.otr.portal.proxy.memory.ProxyBodyMemoryTest" time="1.256"/>
+  <testcase name="uploadAllocatesHeapIndependentOfBodySize()" classname="com.otr.portal.proxy.memory.ProxyBodyMemoryTest" time="0.244"/>
+  <testcase name="rewritingProxyAvoidsLargeHeapAllocations()" classname="com.otr.portal.proxy.memory.ProxyBodyMemoryTest" time="1.478"/>
+  <system-out><![CDATA[2026-10-28T21:44:54.435+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : jetty-12.1.14; built: 2026-10-02T05:48:05.032Z; git: 15cecbd757a2f6b0fdc6a8944f4c6d0020b17da0; jvm 17.0.11+9-LTS
+2026-10-28T21:44:54.436+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.handler.ContextHandler  : Started oeje11s.ServletContextHandler@21a14c45{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@1b7648f{STARTED}}
+2026-10-28T21:44:54.436+03:00  INFO 61654 --- [    Test worker] o.e.j.e.servlet.ServletContextHandler    : Started oeje11s.ServletContextHandler@21a14c45{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@1b7648f{STARTED}}
+2026-10-28T21:44:54.436+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.AbstractConnector       : Started oejs.ServerConnector@25d4851c{HTTP/1.1, (http/1.1)}{127.0.0.1:58595}
+2026-10-28T21:44:54.436+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : Started oejs.Server@676f70dc{STARTING}[12.1.14,sto=0] @1ms
+[proxy-memory] mode=stream body=8388369 requests=10 heapPerRequest=153580 largeCountPerRequest=0,0 largeBytesPerRequest=0 largest=0 latencyMs=73,1 topLarge={}
+[proxy-memory] mode=upload body=8388608 requests=10 heapPerRequest=353944 largeCountPerRequest=0,0 largeBytesPerRequest=0 largest=0 latencyMs=14,0 topLarge={}
+[proxy-memory] mode=rewrite body=8388483 requests=10 heapPerRequest=317771 largeCountPerRequest=0,0 largeBytesPerRequest=0 largest=0 latencyMs=95,2 topLarge={}
+2026-10-28T21:44:57.415+03:00  INFO 61654 --- [    Test worker] org.eclipse.jetty.server.Server          : Stopped oejs.Server@676f70dc{STOPPING}[12.1.14,sto=0]
+2026-10-28T21:44:57.416+03:00  INFO 61654 --- [    Test worker] o.e.jetty.server.AbstractConnector       : Stopped oejs.ServerConnector@25d4851c{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2026-10-28T21:44:57.416+03:00  INFO 61654 --- [    Test worker] o.e.j.e.servlet.ServletContextHandler    : Stopped oeje11s.ServletContextHandler@21a14c45{ROOT,/,b=null,a=AVAILABLE,h=oeje11s.ServletHandler@1b7648f{STOPPED}}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

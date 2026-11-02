@@ -1,0 +1,57 @@
+apply plugin: 'java'
+configurations.all {
+    exclude group: "org.junit.vintage", module: "junit-vintage-engine"
+}
+dependencies {
+    implementation project (":ssl-support")
+    implementation project (":monitoring-dashboard")
+    implementation project (":elk-support")
+    implementation project (":command-support")
+
+    compileOnly("com.otr.portal:security:${coreVersion}")
+
+    implementation("io.netty:netty-buffer:${nettyVersion}")
+    implementation("io.netty:netty-codec-http:${nettyVersion}")
+
+    implementation("io.projectreactor:reactor-core")
+
+    // OpenTelemetry
+    implementation "io.opentelemetry.instrumentation:opentelemetry-spring-boot-starter"
+    runtimeOnly("io.opentelemetry.instrumentation:opentelemetry-logback-mdc-1.0")
+
+    implementation("org.springframework.boot:spring-boot-starter-webmvc"){
+        exclude module: 'spring-boot-starter-tomcat'
+    }
+    implementation("org.springframework.boot:spring-boot-starter-jetty")
+
+    implementation 'jakarta.ws.rs:jakarta.ws.rs-api:3.1.0'
+
+    testImplementation("org.mockito:mockito-core")
+    testImplementation("org.mockito:mockito-junit-jupiter")
+    testImplementation group: 'com.jayway.jsonpath', name: 'json-path-assert', version: '2.4.0'
+    testImplementation("org.springframework.boot:spring-boot-test-autoconfigure")
+    testImplementation("org.springframework.boot:spring-boot-starter-test")
+    testImplementation("org.springframework.boot:spring-boot-starter-webmvc-test") {
+        exclude group: "org.mockito", module: "mockito-all"
+        exclude group: "org.junit.vintage", module: "junit-vintage-engine"
+    }
+    testImplementation("org.springframework.boot:spring-boot-starter-webmvc"){
+        exclude module: 'spring-boot-starter-tomcat'
+    }
+    testImplementation "org.springframework.boot:spring-boot-starter-webclient"
+    testImplementation("io.projectreactor:reactor-test")
+
+    testImplementation("com.squareup.okhttp3:okhttp:4.12.0")
+    testImplementation("com.squareup.okhttp3:mockwebserver:4.12.0")
+    // CommonsMultipartResolver, как у MultipartFilter портала (core/spring-support)
+//    testImplementation("commons-fileupload:commons-fileupload:1.6.0")
+
+    // Логгер для тестов (биндер SLF4J)
+    testImplementation "ch.qos.logback:logback-classic"
+    testRuntimeOnly "ch.qos.logback:logback-core"
+}
+
+test {
+    useJUnitPlatform()
+    systemProperty 'io.netty.leakDetection.level', 'paranoid'
+}

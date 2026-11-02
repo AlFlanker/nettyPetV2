@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.otr.portal.proxy.NettyTransportTest" tests="3" skipped="1" failures="0" errors="0" timestamp="2026-10-28T18:44:48.337Z" hostname="MacBook-Pro.local" time="0.006">
+  <properties/>
+  <testcase name="epollTransportConnectsToServer()" classname="com.otr.portal.proxy.NettyTransportTest" time="0.002">
+    <skipped message="Assumption failed: epoll недоступен: java.lang.ExceptionInInitializerError" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: epoll недоступен: java.lang.ExceptionInInitializerError
+	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:340)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:112)
+	at com.otr.portal.proxy.NettyTransportTest.epollTransportConnectsToServer(NettyTransportTest.java:38)
+</skipped>
+  </testcase>
+  <testcase name="nioTransportConnectsToServer()" classname="com.otr.portal.proxy.NettyTransportTest" time="0.003"/>
+  <testcase name="detectsEpollWhenAvailableAndNioOtherwise()" classname="com.otr.portal.proxy.NettyTransportTest" time="0.001"/>
+  <system-out><![CDATA[2026-10-28T21:44:48.342+03:00  INFO 61654 --- [    Test worker] com.otr.portal.proxy.NettyTransport      : Соединения с бэкендами: транспорт NIO, epoll недоступен: IllegalStateException: Only supported on Linux
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

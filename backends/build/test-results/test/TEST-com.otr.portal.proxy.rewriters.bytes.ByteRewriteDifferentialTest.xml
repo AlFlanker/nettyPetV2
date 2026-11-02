@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.otr.portal.proxy.rewriters.bytes.ByteRewriteDifferentialTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-10-28T18:44:57.428Z" hostname="MacBook-Pro.local" time="28.697">
+  <properties/>
+  <testcase name="[1] &quot;windows-1251&quot;" classname="com.otr.portal.proxy.rewriters.bytes.ByteRewriteDifferentialTest" time="3.329"/>
+  <testcase name="[2] &quot;ISO-8859-1&quot;" classname="com.otr.portal.proxy.rewriters.bytes.ByteRewriteDifferentialTest" time="3.22"/>
+  <testcase name="[3] &quot;KOI8-R&quot;" classname="com.otr.portal.proxy.rewriters.bytes.ByteRewriteDifferentialTest" time="3.326"/>
+  <testcase name="multiByteCharsetUsesStringChain()" classname="com.otr.portal.proxy.rewriters.bytes.ByteRewriteDifferentialTest" time="0.008"/>
+  <testcase name="byteChainMatchesStringChainOnCorpus()" classname="com.otr.portal.proxy.rewriters.bytes.ByteRewriteDifferentialTest" time="9.203"/>
+  <testcase name="legacyFlagForcesStringChain()" classname="com.otr.portal.proxy.rewriters.bytes.ByteRewriteDifferentialTest" time="0.001"/>
+  <testcase name="rewriterWithoutByteImplementationUsesStringChain()" classname="com.otr.portal.proxy.rewriters.bytes.ByteRewriteDifferentialTest" time="0.002"/>
+  <testcase name="unchangedBodyIsReturnedWithoutCopy()" classname="com.otr.portal.proxy.rewriters.bytes.ByteRewriteDifferentialTest" time="0.0"/>
+  <testcase name="byteChainMatchesStringChainOnRandomFragments()" classname="com.otr.portal.proxy.rewriters.bytes.ByteRewriteDifferentialTest" time="9.606"/>
+  <system-out><![CDATA[2026-10-28T21:45:16.517+03:00  WARN 61654 --- [    Test worker] c.o.p.p.rewriters.ResponseBodyRewriter   : Перезапись контента будет выполняться через String: нет реализации ByteContentRewriter у [com.otr.portal.proxy.rewriters.bytes.ByteRewriteDifferentialTest$$Lambda$1913/0x000000d0018d7218]
+2026-10-28T21:45:16.517+03:00  WARN 61654 --- [    Test worker] c.o.p.p.rewriters.ResponseBodyRewriter   : Перезапись контента будет выполняться через String: нет реализации ByteContentRewriter у [com.otr.portal.proxy.rewriters.bytes.ByteRewriteDifferentialTest$$Lambda$1913/0x000000d0018d7218]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

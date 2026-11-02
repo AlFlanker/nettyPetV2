@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.otr.portal.proxy.ProxyCommandSupportTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-10-28T18:44:48.382Z" hostname="MacBook-Pro.local" time="0.43">
+  <properties/>
+  <testcase name="skipsBodyWithoutLengthHeaders()" classname="com.otr.portal.proxy.ProxyCommandSupportTest" time="0.003"/>
+  <testcase name="releasesOriginalBodyWhenEncoderSendsChunks()" classname="com.otr.portal.proxy.ProxyCommandSupportTest" time="0.014"/>
+  <testcase name="releasesBodyWhenClientAbortsUpload()" classname="com.otr.portal.proxy.ProxyCommandSupportTest" time="0.381"/>
+  <testcase name="[1] &quot;PUT&quot;" classname="com.otr.portal.proxy.ProxyCommandSupportTest" time="0.001"/>
+  <testcase name="[2] &quot;POST&quot;" classname="com.otr.portal.proxy.ProxyCommandSupportTest" time="0.001"/>
+  <testcase name="replacesStaleContentLengthWhenBodyAlreadyRead()" classname="com.otr.portal.proxy.ProxyCommandSupportTest" time="0.002"/>
+  <testcase name="writesSmallFormIntoBodyBuffer()" classname="com.otr.portal.proxy.ProxyCommandSupportTest" time="0.001"/>
+  <testcase name="readsRawBodyIntoDirectChunks()" classname="com.otr.portal.proxy.ProxyCommandSupportTest" time="0.022"/>
+  <system-out><![CDATA[2026-10-28T21:44:48.385+03:00  WARN 61654 --- [    Test worker] c.otr.portal.proxy.ProxyCommandSupport   : Тело запроса GET /page прочитано до прокси: заявлено 3 байт, получено 0
+2026-10-28T21:44:48.394+03:00  WARN 61654 --- [    Test worker] c.otr.portal.proxy.ProxyCommandSupport   : Тело запроса POST /form прочитано до прокси, пересобираем его из параметров
+2026-10-28T21:44:48.791+03:00  WARN 61654 --- [    Test worker] c.otr.portal.proxy.ProxyCommandSupport   : Тело запроса POST /form прочитано до прокси, пересобираем его из параметров
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

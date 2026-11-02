@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.otr.portal.proxy.cookies.RewriteNameCookieInterceptorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-10-28T18:44:48.825Z" hostname="MacBook-Pro.local" time="0.001">
+  <properties/>
+  <testcase name="accepts_cookie_for_path_including_backend()" classname="com.otr.portal.proxy.cookies.RewriteNameCookieInterceptorTest" time="0.001"/>
+  <testcase name="accepts_cookie_without_path()" classname="com.otr.portal.proxy.cookies.RewriteNameCookieInterceptorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
